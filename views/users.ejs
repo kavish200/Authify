@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include("partials/head") %>
+  <%- include("flash.ejs")%>
+  <title>Authify</title>
+</head>
+
+<body>
+  <div class="container-box">
+    <h1>Welcome to <span class="text-primary">Authify</span><br><small><i>A simple Login/Register system</i></small></h1>
+
+    <form action="/users/register" method="GET">
+      <button class="btn btn-outline-primary">Signup</button>
+    </form>
+
+    <form action="/users/login" method="GET">
+      <button class="btn btn-outline-success">Login</button>
+    </form>
+    
+  </div>
+</body>
+</html>

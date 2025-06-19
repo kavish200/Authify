@@ -1,0 +1,47 @@
+body {
+        background-color: #f0f2f5 !important;
+      }
+      .card {
+        max-width: 400px !important;
+        margin: auto !important;
+        margin-top: 100px !important;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+        border-radius: 12px !important;
+      }
+      h1 {
+        text-align: center !important;
+        margin-bottom: 20px !important; 
+      }
+      label {
+        font-weight: 500 !important;
+        margin-top: 10px !important;
+      }
+
+      body {
+      background-color: #f8f9fa;
+    }
+
+    .container-box {
+      max-width: 500px;
+      margin: 100px auto;
+      padding: 40px;
+      background-color: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    button {
+      width: 120px;
+    }
